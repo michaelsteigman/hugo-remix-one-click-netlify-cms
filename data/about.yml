@@ -8,9 +8,8 @@ en:
       content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil,
         libero, perspiciatis eos provident laborum eum dignissimos.
     - icon: fa-compass
-      title: "We are on your side."
-      content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil,
-        libero, perspiciatis eos provident laborum eum dignissimos.
+      title: These are snippets!
+      content: This is snippet content.
     - icon: fa-leaf
       title: We care.
       content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil,
