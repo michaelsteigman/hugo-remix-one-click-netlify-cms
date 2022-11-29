@@ -22,7 +22,7 @@ i18n:
 # collections configuration
 collections:
   - name: "sections"
-    label: "Global settings"
+    label: "Sections"
     i18n:
       structure: single_file
       locales: [ en, fr ]
@@ -198,7 +198,6 @@ collections:
         { label: "Summary", name: "summary", widget: "text" },
         { label: "Body", name: "body", widget: "markdown" },
       ]
-
   - name: "guideline"
     label: "Guideline (English)"
     folder: "content/english/guidelines"
