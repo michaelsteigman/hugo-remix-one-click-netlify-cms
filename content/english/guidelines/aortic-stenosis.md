@@ -19,3 +19,22 @@ The prevalence of AS increases with age. In a study of 3273 subjects in Norway, 
 #### Natural History
 
 In patients with AS who are asymptomatic, mortality is low. Symptoms, more than valve area or transaortic pressure gradient, predict poor outcomes, and valve replacement is typically driven by the presence of symptoms. Patients with asymptomatic severe AS typically progress to have symptoms within a few years.
+
+### Evaluation
+
+A pulsus parvus et tardus, or delayed carotid upstroke, may be present in severe AS. A fourth heart sound (S4) can be heard when there is diastolic dysfunction, and a third heart sound (S3) can be heard in severe AS. AS can lead to diastolic dysfunction and signs of heart failure may be seen on exam, including elevated jugular venous pressure, peripheral edema, and crackles on pulmonary examination. In studies correlating physical exam findings with cardiac catheterization and echocardiogram, the findings with the highest positive predictive value with severe AS were:
+
+* Slow rate of increase of carotid pulse (pulsus parvus et tardus)
+	* Note that the carotid upstroke may be more normal in elderly patients due to effects of aging on the vasculature.
+* Late-peaking murmur
+* Decreased intensity/absence of aortic component of the second heart sound, or paradoxical splitting second heart sound
+* Apical-carotid delay
+	* Apical and right carotid pulses are measured simultaneously; delay is abnormal.
+* Brachioradial delay
+	* Brachial and radial pulses are measured simultaneously; delay is abnormal.
+
+	#### Further Testing
+
+Transthoracic echocardiogram (TTE) is the initial diagnostic test of choice for patients with signs or symptoms suggestive of AS. The severity of AS is classified by the aortic jet velocity, mean gradient across the aortic valve, and aortic valve area, as summarized in Table 1.
+
+The frequency of routine surveillance echocardiography is determined by the severity of AS. In addition, repeat TTE is indicated when symptoms develop or if there is a change in murmur concerning for progression of AS. It may also be appropriate when it is important to better understand patient hemodynamics prior to elective surgery, before or during pregnancy, or in acute situations such as gastrointestinal bleeding, anemia, or infection.
