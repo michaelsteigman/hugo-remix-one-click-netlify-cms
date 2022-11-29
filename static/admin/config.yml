@@ -208,7 +208,7 @@ collections:
     fields:
       [
         { label: "Title", name: "title", widget: "string"},      
-        { label: "Key Clinical Points", name: "key_clinical_points", widget: "markdown", i18n: true},
+        { label: "Body", name: "body", widget: "markdown", i18n: true},
         { label: "Background", name: "background", widget: "markdown", i18n: true, required: false },
         { label: "Evaluation", name: "evaluation", widget: "markdown", i18n: true, required: false },
         { label: "Management", name: "management", widget: "markdown", i18n: true, required: false },
@@ -228,5 +228,5 @@ collections:
       [
         { label: "Title", name: "title", widget: "string"},
         { label: "Summary", name: "summary", widget: text, i18n: true},
-        { label: "Content", name: "content", widget: "markdown", i18n: true, required: false },
+        { label: "Body", name: "body", widget: "markdown", i18n: true, required: false },
       ]
