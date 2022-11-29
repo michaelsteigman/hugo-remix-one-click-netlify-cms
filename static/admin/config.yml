@@ -209,13 +209,6 @@ collections:
       [
         { label: "Title", name: "title", widget: "string"},      
         { label: "Body", name: "body", widget: "markdown", i18n: true},
-        { label: "Background", name: "background", widget: "markdown", i18n: true, required: false },
-        { label: "Evaluation", name: "evaluation", widget: "markdown", i18n: true, required: false },
-        { label: "Management", name: "management", widget: "markdown", i18n: true, required: false },
-        { label: "Resources", name: "resources", widget: "markdown", i18n: true, required: false },
-        { label: "Patient Education", name: "patient_education", widget: "markdown", i18n: true, required: false },
-        { label: "References", name: "references", widget: "markdown", i18n: true, required: false },
-        { label: "Appendices", name: "appendices", widget: "markdown", i18n: true, required: false },
      ]
   - name: "handout"
     label: "Handout (English)"
