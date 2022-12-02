@@ -1,14 +1,21 @@
 {{ $data := index site.Data.home  site.Language.Lang }}
 
 
-<div class="footer">
-    <span>
-       {{ $data.copyright}}
-    </span>
-    <a href="{{ $data.registerUrl}}">
-        {{ $data.register}}
-    </a>
-</div>
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <span>
+          {{ $data.copyright}}
+       </span>
+       <a href="{{ $data.registerUrl}}">
+           {{ $data.register}}
+       </a>
+      </div><!-- .col -->
+    </div><!-- .row -->
+  </div><!-- .container -->
+    
+  </footer>
 
 
 <script>
