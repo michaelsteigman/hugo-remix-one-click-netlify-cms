@@ -12,16 +12,16 @@
 
 <section class="section sec3 content-sec mt-5" id="product">
 
-    <div class="main-title">
+    <div class="main-title mb-5">
         <h2>Guidelines
            
         </h2>
         <div class="border"></div>
     </div>
 
-    <p class="sub-title">
+    <!-- <p class="sub-title">
         {{ $data.portText }}
-    </p>
+    </p> -->
 
 
     <div class="categories">
@@ -30,10 +30,10 @@
         {{ $curCategoryCfg := index $cMapping $curCategorySlug}}
         {{ $firstPage := index $curCategoryVar 0}}
 
-        <div class="category">
-            <div class="image"><img src="{{$curCategoryCfg.coverImage}}" alt="">
-                <h3>{{$curCategoryCfg.name}}</h3>
-            </div>
+        <div class="category mb-5">
+            
+            <h3>{{$curCategoryCfg.name}}</h3>
+            
             <div class="hover-items">
                 <p>{{$curCategoryCfg.description}}</p>
                 <div class="show-more" onclick="handleHeaderSubMenuClick(event, '{{  $firstPage.RelPermalink  }}')"> 
