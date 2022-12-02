@@ -1,16 +1,13 @@
 {{ $data := index site.Data.home  site.Language.Lang }}
 
 
-<footer class="footer">
+<footer class="footer mt-5 py-5">
   <div class="container">
     <div class="row">
       <div class="col">
         <span>
           {{ $data.copyright}}
        </span>
-       <a href="{{ $data.registerUrl}}">
-           {{ $data.register}}
-       </a>
       </div><!-- .col -->
     </div><!-- .row -->
   </div><!-- .container -->

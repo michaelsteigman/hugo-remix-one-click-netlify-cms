@@ -1,6 +1,6 @@
 .md-content {
   * {
-    color: var(--color-grey-3);
+    color: var(--color-primary);
   }
 
   p{
@@ -14,7 +14,7 @@
   }
 
   blockquote {
-    border-left: 4px solid var(--color-grey-2);
+    border-left: 4px solid var(--color-primary);
     padding: 0 15px !important;
     margin: 0px;
   }
@@ -30,7 +30,7 @@
   }
 
   pre {
-    background-color: var(--color-white);
+    background-color: var(--color-primary);
     border-radius: 3px;
     word-wrap: break-word;
     padding: 12px 13px;
@@ -93,7 +93,7 @@
   }
 
   pre {
-    background: var(--color-white) !important;
+    background: var(--color-primary) !important;
     padding: 12px 13px;
   }
 
