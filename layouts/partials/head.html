@@ -8,10 +8,11 @@
 
     <!-- Generate CSS -->
     {{ $options := (dict "enableSourceMap" true ) }}
-    {{ $normalizeSass := resources.Get "normalize.scss" }}
-    {{ $normalizeStyle := $normalizeSass | resources.ToCSS $options  | resources.Fingerprint }}
+    <!-- {{ $normalizeSass := resources.Get "normalize.scss" }}
+    {{ $normalizeStyle := $normalizeSass | resources.ToCSS $options  | resources.Fingerprint }} -->
 
-    {{ $mainSass := resources.Get "main.scss" }}
+    <!-- {{ $mainSass := resources.Get "main.scss" }} -->
+    {{ $mainSass := resources.Get "pcoi/scss/pcoi.scss" }}
     {{ $mainStyle := $mainSass | resources.ToCSS $options | resources.Fingerprint }}
 
     {{ $mainJs := resources.Get "main.js" }}

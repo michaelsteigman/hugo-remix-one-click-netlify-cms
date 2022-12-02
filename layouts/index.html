@@ -9,14 +9,21 @@
     {{ partial "header.html" .}}
 
     <!-- section list -->
-    <div class="main-content">
-        {{ partial "home.html" .}}
-        {{ partial "products.html" .}}
-        {{ partial "about.html" .}}
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    {{ partial "products.html" .}}
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+        <!-- {{ partial "home.html" .}} -->
+        
+        <!-- {{ partial "about.html" .}} -->
         <!-- {{ partial "scenes.html" .}} -->
-        {{ partial "news.html" .}}
-        {{ partial "contact.html" .}}
-    </div>
+        <!-- {{ partial "news.html" .}}
+        {{ partial "contact.html" .}} -->
+    </main>
 
     <!-- footer copyright -->
     {{ partial "footer.html" .}}
