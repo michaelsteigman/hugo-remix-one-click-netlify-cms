@@ -44,10 +44,10 @@
 
 
     <div class="product-page">
-        <div class="banner">
+        <!-- <div class="banner">
             <img src="{{ $curCategoryCfg.coverImage }}">
             <h1> {{  $curCategoryCfg.name }} </h1>
-        </div>
+        </div> -->
 
         <div class="container">
             <div class="side-menu">
@@ -66,13 +66,15 @@
                 </ul> -->
             </div>
 
-            <div class="main">
-                <div class="title">
-                    {{.Title}}
-                </div>
-                <div class="md-content">
-                    {{ .Content }}
-                </div>
+            <div class="row">
+                <div class="col">
+                    <h1>
+                        {{.Title}}
+                    </h1>
+                    <div class="md-content">
+                        {{ .Content }}
+                    </div>
+                </div><!-- .col -->
             </div>
         </div>
     </div>
